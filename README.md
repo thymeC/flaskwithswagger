@@ -3,9 +3,13 @@ api.py and hello.py
 
 ## test request:
 curl http://127.0.0.1:5000/hello
+
 curl http://127.0.0.1:5000/todo1 -d "data=Remember the milk" -X PUT
+
 curl http://127.0.0.1:5000/todo1
+
 curl http://127.0.0.1:5000/todo2 -d "data=Remember the tea" -X PUT
+
 curl http://127.0.0.1:5000/todo2
 
 # example from tube 
