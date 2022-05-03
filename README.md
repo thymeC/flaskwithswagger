@@ -55,3 +55,4 @@ FROM book
 ```
 ## test request
 curl http://127.0.0.1:5000/books
+curl http://127.0.0.1:5000/book/1
